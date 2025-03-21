@@ -1,5 +1,5 @@
 [build]
-  command = "npm install --legacy-peer-deps && next build"
+  command = "npm install --force && next build"
   publish = ".next"
 
 [build.environment]
@@ -13,4 +13,3 @@
   from = "/*"
   to = "/.netlify/functions/next"
   status = 200
-
